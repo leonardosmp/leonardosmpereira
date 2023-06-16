@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "brandon";
+  src: url("_fonts/brandon\ grotesque/") format("opentype");
+  font-family: "moret";
+  src: url("_fonts/moret/") format("opentype");
+  /* Adicione outras variações da fonte, se necessário */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #191919;
+  color: #fff;
+  font-family: moret, serif;
+}
+
+.top-logo {
+  text-align: center;
+}
+
+.top-logo img {
+  max-width: 200px;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 54px;
+  margin-bottom: 4px;
+}
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4px;
+}
+
+.countdown-segment {
+  padding: 20px;
+}
+
+.countdown-number {
+  font-family: moret, serif;
+  font-size: 24px;
+  color: #d1d1d1;
+}
+
+.countdown-label {
+  font-family: "Brandon Grotesque", sans-serif;
+  color: #d1d1d1;
+}
+
+.social-medias {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.social-medias a {
+  color: #cacaca;
+  text-decoration: none;
+}
+
+.social-medias a:hover {
+  color: #fff;
+}
