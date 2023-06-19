@@ -64,6 +64,7 @@ h1 {
   gap: 32px;
   margin-top: 24px;
   font-size: 40px;
+  align-items: center;
 }
 
 .social-medias a {
@@ -102,5 +103,6 @@ h1 {
   .social-medias {
     font-size: 24px;
     margin-top: 88px;
+    align-items: center;
   }
 }
