@@ -21,18 +21,18 @@ body {
 
 .top-logo {
   text-align: center;
-}
-
-.top-logo img {
-  max-width: 200px;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 .container {
   text-align: center;
+  margin-top: 0px;
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 160px;
+  margin-top: 48px;
   margin-bottom: 4px;
 }
 
@@ -43,25 +43,27 @@ h1 {
 }
 
 .countdown-segment {
-  padding: 20px;
+  padding: 48px;
 }
 
 .countdown-number {
   font-family: moret, serif;
-  font-size: 24px;
+  font-size: 112px;
   color: #d1d1d1;
 }
 
 .countdown-label {
   font-family: "Brandon Grotesque", sans-serif;
   color: #d1d1d1;
+  font-size: 32px;
 }
 
 .social-medias {
   display: flex;
   justify-content: center;
-  gap: 8px;
-  margin-top: 20px;
+  gap: 24px;
+  margin-top: 32px;
+  font-size: 32px;
 }
 
 .social-medias a {
